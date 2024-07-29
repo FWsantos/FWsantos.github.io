@@ -1,11 +1,15 @@
 // import { useState } from 'react'
 import './App.css'
+import Header from "./components/Header/Header.jsx";
 
 function App() {
 
   return (
     <>
-      <h1>Teste testando e testado</h1>
+      <Header></Header>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
     </>
   )
 }

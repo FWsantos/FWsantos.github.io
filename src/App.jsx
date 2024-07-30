@@ -1,15 +1,18 @@
 // import { useState } from 'react'
 import './App.css'
 import Header from "./components/Header/Header.jsx";
+import About from "./components/About/About.jsx";
 
 function App() {
 
   return (
     <>
       <Header></Header>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <main className="items-center flex">
+        <div className="w-5/6 mx-auto flex justify-center">
+          <About></About>
+        </div>
+      </main>
     </>
   )
 }

@@ -2,7 +2,7 @@ import "./style.css"
 
 function About(params) {
   return (
-    <section className="flex space-x-[10rem]" id="about">
+    <section className="flex flex-col md:flex-row space-x-[10rem]" id="about">
       <div className="head-line space-y-8 content-center">
         <p className="name text-2xl">
           Olá, meu nome é Wesley.

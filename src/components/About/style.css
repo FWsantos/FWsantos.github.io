@@ -1,11 +1,34 @@
 .my-photo {
   position: relative;
   left: 100%;
-  animation: slideIn 2s forwards;
+  animation: photo 1s forwards;
+
+  img {
+    box-shadow: 30px 30px #508C9B;
+  }
 }
 
-@keyframes slideIn {
+@keyframes photo {
   to {
     left: 0;
   }
+}
+
+.head-line .name {
+  position: relative;
+  left: -100%;
+  animation: headLine 0.5s forwards;
+}
+
+@keyframes headLine {
+  to {
+    left: 0;
+  }
+}
+
+
+.head-line .presentation {
+  position: relative;
+  left: -100%;
+  animation: headLine 1.5s forwards;
 }

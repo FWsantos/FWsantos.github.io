@@ -1,5 +1,7 @@
 import NavBarItem from './NavBarItem.jsx';
 import "./style.css"
+import GithubIcon from "../../assets/github-mark.png"
+import LinkedinIcon from "../../assets/linkedin-50.png"
 
 export default function Header(){
   return (
@@ -14,10 +16,10 @@ export default function Header(){
       </nav>
       <div className="w-1/4 flex space-x-6">
         <a href="https://www.linkedin.com/in/wesley-santos-020aa61b1/" target="_blank">
-          <img className="size-5 md:size-7" src="/src/assets/linkedin-50.png" alt="linkedin"/>
+          <img className="size-5 md:size-7" src={LinkedinIcon} alt="linkedin"/>
         </a>
         <a href="https://github.com/FWsantos" target="_blank">
-          <img className="size-5 md:size-7" src="/src/assets/github-mark.png" alt="github"/>
+          <img className="size-5 md:size-7" src={GithubIcon} alt="github"/>
         </a>
       </div>
     </header>

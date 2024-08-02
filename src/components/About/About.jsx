@@ -12,7 +12,7 @@ function About(params) {
         </p>
       </div>
       <div className="my-photo">
-        <img className="rounded-lg" src="/src/assets/perfil.png" alt="Foto do Wesley"/>
+        <img className="rounded-lg" src="./../../assets/perfil.png" alt="Foto do Wesley"/>
       </div>
     </section>
   )
